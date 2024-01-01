@@ -57,3 +57,15 @@
 **Delete a Product**
   Endpoint: /api/products/:productId  
   Method: DELETE  
+
+
+  ## MongoDB Collections
+
+The application uses two MongoDB collections:
+
+1. **Products:**
+   - The `products` collection stores information about products, including their name and price.
+
+2. **Users:**
+   - The `users` collection stores user information, including usernames and passwords.
+
